@@ -1,0 +1,42 @@
+cd /data/adb/modules/cool0/system
+echo "Just enter where you want the" 
+echo "file to be and it will be there after a simply reboot"
+echo "what folder is this in? you can also just say"
+echo "a random folder name and it will create it under /system"
+echo "or if you just want you file like .sh under /system say none"
+echo "if you want it to be in more like app/youtube.com"
+echo "just say it BUT DO NOT INCLUDE / in the start"
+echo "wrong /app/youtube.com"
+echo "correct app/youtube.com"
+echo " "
+echo " "
+echo " "
+echo "folder in for example bin:"
+read folder
+if [[ "$folder" == "none" ]]; then
+echo "okay now where the file or folder"
+echo "you want under /system or whatever like "
+echo "/sdcard/imcool0.sh: "
+read file
+echo " "
+echo " "
+echo " "
+echo "name to be like /system/wow Output.sh: "
+read name
+cp -r "$file" "$name"
+echo "success should be there after a reboot"
+exit 0
+fi
+mkdir -p "$folder"
+cd "$folder"
+echo "okay now where the file or folder"
+echo "you want under /system or whatever like "
+echo "/sdcard/imsocool.sh: "
+read file
+echo " "
+echo " "
+echo " "
+echo "name to be like /system/wow Output.sh: "
+read name
+cp -r "$file" "$name"
+echo "success should be there after a reboot"

@@ -1,0 +1,6 @@
+id=cool0
+name=Izer
+version=v1.0
+versionCode=11
+author=@Logic067
+description=A Magisk module that systemless moves files or folder to /system directory or /system/bin or whatever you like
