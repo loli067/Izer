@@ -1,5 +1,5 @@
 # Izer (Terminal Emulator)
-A Magisk module that systemless moves files or folder to /system directory or /system/bin or whatever you like
+A Magisk module that systemless moves files or folder to /system directory or /system/bin or even create folders under /system
 
 
 
