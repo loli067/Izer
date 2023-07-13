@@ -3,8 +3,8 @@ A Magisk module that systemless moves files or folder to /system directory or /s
 
 
 
-Usage:
-in any terminal app like termux
-type
-su "izer"
-or just su and izer
+## Usage:
+```
+su
+izer
+```
