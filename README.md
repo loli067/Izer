@@ -4,7 +4,9 @@ A Magisk module that systemless moves files or folder to /system directory or /s
 
 
 ## Usage:
+for new
 ```
 su
 izer
+3
 ```
